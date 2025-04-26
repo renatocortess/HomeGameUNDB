@@ -56,9 +56,9 @@ Jogo de perguntas e respostas onde o jogador escolhe a dificuldade, define o tem
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/hub-game-undb.git
+git clone https://github.com/renatocortess/HomeGameUNDB.git
 
 # Acesse o diretório
-cd hub-game-undb
+cd HomeGameUNDB
 
 # Abra o index.html com seu navegador
