@@ -48,7 +48,7 @@ Jogo de perguntas e respostas onde o jogador escolhe a dificuldade, define o tem
 - Felipe Sousa  
 - Gabriel Paulo  
 
-👨‍🏫 Orientação: Prof. Álvaro Meton Sousa Perdigão
+👨‍🏫 Orientação: Prof. Álvaro Perdigão
 
 ---
 
