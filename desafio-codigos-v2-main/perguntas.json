@@ -1,0 +1,552 @@
+[
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.insert('item');",
+      "array.append('item');",
+      "array.push('item');",
+      "array.add('item');",
+      "array.put('item');"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "// Este é um comentário",
+      "/* Este é um comentário */",
+      "# Este é um comentário",
+      "-- Este é um comentário",
+      "' Este é um comentário"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.add('item');",
+      "array.push('item');",
+      "array.insert('item');",
+      "array.append('item');",
+      "array.put('item');"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function soma(a, b) { return a + b; }",
+      "função soma(a, b) => a + b",
+      "def soma(a, b): return a + b",
+      "let soma(a + b) = { return a + b; }",
+      "function = soma(a, b): return a + b;"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "-- Este é um comentário",
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "# Este é um comentário",
+      "' Este é um comentário"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "/* Este é um comentário */",
+      "-- Este é um comentário",
+      "' Este é um comentário",
+      "// Este é um comentário",
+      "# Este é um comentário"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "' Este é um comentário",
+      "-- Este é um comentário",
+      "# Este é um comentário"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function soma(a, b) { return a + b; }",
+      "função soma(a, b) => a + b",
+      "let soma(a + b) = { return a + b; }",
+      "function = soma(a, b): return a + b;",
+      "def soma(a, b): return a + b"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function = soma(a, b): return a + b;",
+      "função soma(a, b) => a + b",
+      "def soma(a, b): return a + b",
+      "let soma(a + b) = { return a + b; }",
+      "function soma(a, b) { return a + b; }"
+    ],
+    "answer": 4
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "# Este é um comentário",
+      "' Este é um comentário",
+      "-- Este é um comentário"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "def nome = 'João';",
+      "nome := 'João';",
+      "nome = 'João';",
+      "var nome := 'João';",
+      "let nome = 'João';"
+    ],
+    "answer": 4
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.insert('item');",
+      "array.put('item');",
+      "array.add('item');",
+      "array.push('item');",
+      "array.append('item');"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.put('item');",
+      "array.add('item');",
+      "array.insert('item');",
+      "array.push('item');",
+      "array.append('item');"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "def nome = 'João';",
+      "nome = 'João';",
+      "var nome := 'João';",
+      "nome := 'João';",
+      "let nome = 'João';"
+    ],
+    "answer": 4
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function = soma(a, b): return a + b;",
+      "function soma(a, b) { return a + b; }",
+      "let soma(a + b) = { return a + b; }",
+      "def soma(a, b): return a + b",
+      "função soma(a, b) => a + b"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "def nome = 'João';",
+      "nome := 'João';",
+      "let nome = 'João';",
+      "var nome := 'João';",
+      "nome = 'João';"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "-- Este é um comentário",
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "# Este é um comentário",
+      "' Este é um comentário"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Qual estrutura de repetição existe em JavaScript?",
+    "options": [
+      "for (let i = 0; i < 10; i++) { console.log(i); }",
+      "para i de 0 até 10 { imprimir(i); }",
+      "repita (i < 10) { log(i); }",
+      "loop i in 10 { print(i); }",
+      "foreach i até 10 { console.log(i); }"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function soma(a, b) { return a + b; }",
+      "function = soma(a, b): return a + b;",
+      "let soma(a + b) = { return a + b; }",
+      "def soma(a, b): return a + b",
+      "função soma(a, b) => a + b"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual estrutura de repetição existe em JavaScript?",
+    "options": [
+      "loop i in 10 { print(i); }",
+      "para i de 0 até 10 { imprimir(i); }",
+      "repita (i < 10) { log(i); }",
+      "foreach i até 10 { console.log(i); }",
+      "for (let i = 0; i < 10; i++) { console.log(i); }"
+    ],
+    "answer": 4
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "let soma(a + b) = { return a + b; }",
+      "def soma(a, b): return a + b",
+      "function soma(a, b) { return a + b; }",
+      "função soma(a, b) => a + b",
+      "function = soma(a, b): return a + b;"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "-- Este é um comentário",
+      "# Este é um comentário",
+      "' Este é um comentário"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "var nome := 'João';",
+      "def nome = 'João';",
+      "let nome = 'João';",
+      "nome := 'João';",
+      "nome = 'João';"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "nome = 'João';",
+      "def nome = 'João';",
+      "var nome := 'João';",
+      "let nome = 'João';",
+      "nome := 'João';"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "nome := 'João';",
+      "var nome := 'João';",
+      "def nome = 'João';",
+      "let nome = 'João';",
+      "nome = 'João';"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.put('item');",
+      "array.push('item');",
+      "array.append('item');",
+      "array.insert('item');",
+      "array.add('item');"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.put('item');",
+      "array.push('item');",
+      "array.add('item');",
+      "array.insert('item');",
+      "array.append('item');"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "nome := 'João';",
+      "def nome = 'João';",
+      "var nome := 'João';",
+      "let nome = 'João';",
+      "nome = 'João';"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "// Este é um comentário",
+      "# Este é um comentário",
+      "/* Este é um comentário */",
+      "-- Este é um comentário",
+      "' Este é um comentário"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function soma(a, b) { return a + b; }",
+      "let soma(a + b) = { return a + b; }",
+      "def soma(a, b): return a + b",
+      "função soma(a, b) => a + b",
+      "function = soma(a, b): return a + b;"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual estrutura de repetição existe em JavaScript?",
+    "options": [
+      "repita (i < 10) { log(i); }",
+      "for (let i = 0; i < 10; i++) { console.log(i); }",
+      "para i de 0 até 10 { imprimir(i); }",
+      "loop i in 10 { print(i); }",
+      "foreach i até 10 { console.log(i); }"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "# Este é um comentário",
+      "' Este é um comentário",
+      "// Este é um comentário",
+      "-- Este é um comentário",
+      "/* Este é um comentário */"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "nome := 'João';",
+      "let nome = 'João';",
+      "nome = 'João';",
+      "def nome = 'João';",
+      "var nome := 'João';"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.push('item');",
+      "array.add('item');",
+      "array.insert('item');",
+      "array.append('item');",
+      "array.put('item');"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "nome := 'João';",
+      "var nome := 'João';",
+      "let nome = 'João';",
+      "nome = 'João';",
+      "def nome = 'João';"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.insert('item');",
+      "array.append('item');",
+      "array.add('item');",
+      "array.put('item');",
+      "array.push('item');"
+    ],
+    "answer": 4
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function = soma(a, b): return a + b;",
+      "let soma(a + b) = { return a + b; }",
+      "function soma(a, b) { return a + b; }",
+      "def soma(a, b): return a + b",
+      "função soma(a, b) => a + b"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "/* Este é um comentário */",
+      "' Este é um comentário",
+      "# Este é um comentário",
+      "// Este é um comentário",
+      "-- Este é um comentário"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "// Este é um comentário",
+      "/* Este é um comentário */",
+      "-- Este é um comentário",
+      "' Este é um comentário",
+      "# Este é um comentário"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "-- Este é um comentário",
+      "// Este é um comentário",
+      "/* Este é um comentário */",
+      "' Este é um comentário",
+      "# Este é um comentário"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "let nome = 'João';",
+      "var nome := 'João';",
+      "def nome = 'João';",
+      "nome := 'João';",
+      "nome = 'João';"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.push('item');",
+      "array.put('item');",
+      "array.insert('item');",
+      "array.append('item');",
+      "array.add('item');"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "-- Este é um comentário",
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "' Este é um comentário",
+      "# Este é um comentário"
+    ],
+    "answer": 2
+  },
+  {
+    "text": "Como declarar uma variável em JavaScript?",
+    "options": [
+      "def nome = 'João';",
+      "let nome = 'João';",
+      "nome := 'João';",
+      "nome = 'João';",
+      "var nome := 'João';"
+    ],
+    "answer": 1
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.append('item');",
+      "array.insert('item');",
+      "array.add('item');",
+      "array.push('item');",
+      "array.put('item');"
+    ],
+    "answer": 3
+  },
+  {
+    "text": "Qual estrutura de repetição existe em JavaScript?",
+    "options": [
+      "for (let i = 0; i < 10; i++) { console.log(i); }",
+      "foreach i até 10 { console.log(i); }",
+      "para i de 0 até 10 { imprimir(i); }",
+      "repita (i < 10) { log(i); }",
+      "loop i in 10 { print(i); }"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual das opções define corretamente uma função em JavaScript?",
+    "options": [
+      "function soma(a, b) { return a + b; }",
+      "função soma(a, b) => a + b",
+      "let soma(a + b) = { return a + b; }",
+      "function = soma(a, b): return a + b;",
+      "def soma(a, b): return a + b"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual desses métodos adiciona um item ao final de um array em JS?",
+    "options": [
+      "array.append('item');",
+      "array.insert('item');",
+      "array.add('item');",
+      "array.put('item');",
+      "array.push('item');"
+    ],
+    "answer": 4
+  },
+  {
+    "text": "Como se escreve um comentário de linha única em JavaScript?",
+    "options": [
+      "// Este é um comentário",
+      "# Este é um comentário",
+      "-- Este é um comentário",
+      "/* Este é um comentário */",
+      "' Este é um comentário"
+    ],
+    "answer": 0
+  },
+  {
+    "text": "Qual estrutura de repetição existe em JavaScript?",
+    "options": [
+      "para i de 0 até 10 { imprimir(i); }",
+      "for (let i = 0; i < 10; i++) { console.log(i); }",
+      "repita (i < 10) { log(i); }",
+      "loop i in 10 { print(i); }",
+      "foreach i até 10 { console.log(i); }"
+    ],
+    "answer": 1
+  }
+]

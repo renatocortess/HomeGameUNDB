@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desafio dos Códigos</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Estilo do botão de ajuda */
+    #help-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+
+    /* Estilo do pop-up */
+    #help-popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      z-index: 1001;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    #help-popup h2 {
+      margin-top: 0;
+    }
+
+    #help-popup p {
+      margin-bottom: 1rem;
+      line-height: 1.4;
+    }
+
+    #close-help {
+      background: #dc3545;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      float: right;
+    }
+
+    /* Fundo escurecido atrás do pop-up */
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <li style="list-style: none; display: inline-block; margin-right: 10px;">
+    <a href="../index.html" style="text-decoration: none; color: #000; font-weight: bold; padding: 8px 12px; display: inline-block;">
+      INÍCIO
+    </a>
+  </li>
+  
+
+  <!-- Botão de ajuda -->
+  <button id="help-btn">?</button>
+
+  <!-- Pop-up de ajuda -->
+  <div id="overlay"></div>
+  <div id="help-popup">
+    <h2>Como Jogar</h2>
+    <p>Bem-vindo ao Desafio dos Códigos! 🎉</p>
+    <p>1. Escolha o nível de dificuldade das perguntas.</p>
+    <p>2. Defina quanto tempo deseja para responder cada pergunta.</p>
+    <p>3. Clique em "Começar Jogo" e responda corretamente para somar pontos!</p>
+    <p>4. Acompanhe seu desempenho ao final do jogo.</p>
+    <button id="close-help">Fechar</button>
+  </div>
+
+  <div id="app">
+    <!-- Tela de Configuração -->
+    <div id="config-screen" class="screen active">
+      <h1>🧠 Desafio dos Códigos</h1>
+      <div class="settings">
+        <div class="setting-group">
+          <label for="difficulty">Dificuldade:</label>
+          <select id="difficulty">
+            <option value="easy">Fácil</option>
+            <option value="medium" selected>Médio</option>
+            <option value="hard">Difícil</option>
+          </select>
+        </div>
+        <div class="setting-group">
+          <label for="time-limit">Tempo (minutos):</label>
+          <select id="time-limit">
+            <option value="1">1 Minuto</option>
+            <option value="2">2 Minutos</option>
+            <option value="3">3 Minutos</option>
+            <option value="5">5 Minutos</option>
+            <option value="10">10 Minutos</option>
+            <option value="0">Sem Limite</option>
+          </select>
+        </div>
+      </div>
+      <button id="start-btn" class="btn">Começar Jogo</button>
+    </div>
+
+    <!-- Tela do Jogo -->
+    <div id="game-screen" class="screen">
+      <h1>🧠 Desafio dos Códigos</h1>
+      <div id="game">
+        <div id="question-container">
+          <p id="question-text">Carregando pergunta...</p>
+          <div class="options" id="options-container">
+            <!-- Opções serão inseridas aqui pelo JavaScript -->
+          </div>
+        </div>
+        <div id="info">
+          <p>Pontuação: <span id="score">0</span></p>
+          <p>Tempo: <span id="timer">00:00</span></p>
+        </div>
+        <div id="result"></div>
+        <button id="next-btn" class="btn">Próxima</button>
+      </div>
+    </div>
+
+    <!-- Tela de Resultados -->
+    <div id="result-screen" class="screen">
+      <h1>🏁 Resultado Final</h1>
+      <div class="result-stats">
+        <p>Pontuação: <span id="final-score">0</span></p>
+        <p>Tempo restante: <span id="final-time">00:00</span></p>
+      </div>
+      <div class="actions">
+        <button id="restart-btn" class="btn">Jogar Novamente</button>
+        <button id="new-game-btn" class="btn">Novo Jogo</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const helpBtn = document.getElementById('help-btn');
+    const helpPopup = document.getElementById('help-popup');
+    const closeHelp = document.getElementById('close-help');
+    const overlay = document.getElementById('overlay');
+
+    helpBtn.addEventListener('click', () => {
+      helpPopup.style.display = 'block';
+      overlay.style.display = 'block';
+    });
+
+    closeHelp.addEventListener('click', () => {
+      helpPopup.style.display = 'none';
+      overlay.style.display = 'none';
+    });
+
+    overlay.addEventListener('click', () => {
+      helpPopup.style.display = 'none';
+      overlay.style.display = 'none';
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
