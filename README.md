@@ -6,7 +6,7 @@
 
 ## 📚 Sobre o Projeto
 
-O **HUB GAME UNDB** é uma aplicação gamificada desenvolvida como resposta ao desafio proposto por uma empresa na Feira de Inovação e Tecnologia do Multicenter Sebrae, em São Luís - MA. Seu objetivo é tornar o aprendizado de lógica e programação acessível, atrativo e divertido, especialmente para jovens estudantes.
+O **HUB GAME UNDB** é uma aplicação gamificada desenvolvida como resposta ao desafio proposto pela cadeira de Design de jogos digitais do Centro Universitário DOM BOSCO - UNDB, em São Luís - MA. Seu objetivo é tornar o aprendizado de lógica e programação acessível, atrativo e divertido, especialmente para jovens estudantes.
 
 > 💡 Todos os jogos são autorais, desenvolvidos em **HTML**, **CSS** e **JavaScript** puro, com foco em ambientes desktop.
 
